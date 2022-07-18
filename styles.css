@@ -106,3 +106,13 @@
         transform: rotate(360deg);
     }
 }
+
+.gradient-live {
+    background: rgb(0,175,185);
+    background: radial-gradient(circle, rgba(0,175,185,1) 0%, rgba(0,175,185,1) 30%, rgba(0,129,167,1) 100%);
+}
+
+.gradient-upcoming {
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,0.7598389697675946) 100%);
+}
