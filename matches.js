@@ -1,10 +1,12 @@
 async function getMatches() {
     let url = 'https://dota-pro-upcoming-matches-api.netlify.app/.netlify/functions/index';
+    // let url = 'http://localhost:8888/.netlify/functions/index'
     let matches = await fetch(url, {
         headers: {
-            'Access-Control-Allow-Origin': '*'
+            'Access-Control-Allow-Origin': '*',
         }
-    }).then(response => response.json());
+    }).then(response => response.json())
+      .catch(error => console.log(error));
     return matches.data.matches;
 }
 
