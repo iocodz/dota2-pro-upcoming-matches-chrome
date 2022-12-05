@@ -1,5 +1,4 @@
-const BACKEND_URL = 'https://dota-pro-upcoming-matches-api.netlify.app/api/matches';
-// const BACKEND_URL = 'http://localhost:8888/api/matches';
+const BACKEND_URL = 'https://dota-pro.netlify.app/.netlify/functions/matches';
 
 const STATIC_URL_BASE = 'https://liquipedia.net';
 const DEFAULT_IMAGE = '/commons/images/thumb/1/16/Dota2_logo.png/50px-Dota2_logo.png'
